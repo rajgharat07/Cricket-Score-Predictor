@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // API base URL from environment variable
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_URL = process.env.REACT_APP_API_URL || 'https://cricket-score-predictor-2equ.onrender.com/api';
 
 // Create an axios instance
 const api = axios.create({
