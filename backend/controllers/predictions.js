@@ -2,7 +2,7 @@ const axios = require('axios');
 const Prediction = require('../models/prediction');
 
 // ML API URL from environment variable
-const ML_API_URL = process.env.ML_API_URL || 'http://localhost:8000';
+const ML_API_URL = process.env.ML_API_URL || 'https://cricket-score-predictor-ml.onrender.com';
 
 // Get all predictions
 exports.getAllPredictions = async (req, res) => {
